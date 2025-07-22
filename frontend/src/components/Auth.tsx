@@ -23,7 +23,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
       localStorage.setItem("token", jwt);
       navigate("/blogs");
     } catch (e) {
-      alert("The username already exists.")
+      alert("The username already exists.");
     }
   }
   return (

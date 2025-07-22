@@ -1,4 +1,4 @@
-import { Usersignup } from "@adityaz23op/medium-blogs";
+import type { Usersignup } from "@adityaz23op/medium-blogs";
 import { useState, type ChangeEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
